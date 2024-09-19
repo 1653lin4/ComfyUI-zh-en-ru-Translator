@@ -42,7 +42,7 @@ class ZhEnRuTranslatorNode:
                     else:
                         segments.append(sub_segments[i])
                 # 如果行不是以句号、问号或感叹号结束，添加整行
-                if not line.endswith(('。', '.', '？', '?', '！', '!')):
+                if not line.endswith(('。', '？', '?', '！', '!')):
                     segments.append(line)
             else:
                 # 保留空行
