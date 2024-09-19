@@ -35,14 +35,14 @@ class ZhEnRuTranslatorNode:
             line = line.strip()
             if line:
                 # 进一步分割每一行，考虑句号、问号和感叹号
-                sub_segments = re.split(r'([。．.？?！!])', line)
+                sub_segments = re.split(r'([。？?！!])', line)
                 for i in range(0, len(sub_segments) - 1, 2):
                     if i + 1 < len(sub_segments):
                         segments.append(sub_segments[i] + sub_segments[i+1])
                     else:
                         segments.append(sub_segments[i])
                 # 如果行不是以句号、问号或感叹号结束，添加整行
-                if not line.endswith(('。', '．', '.', '？', '?', '！', '!')):
+                if not line.endswith(('。', '.', '？', '?', '！', '!')):
                     segments.append(line)
             else:
                 # 保留空行
