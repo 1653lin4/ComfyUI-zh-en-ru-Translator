@@ -17,7 +17,7 @@ class DownloadModels:
         return {
             "required": {},
             "optional": {
-                "model_source": (["hf-mirror.com", "modelscope.cn", "huggingface.co"], {"default": "hf-mirror.com"}),
+                "model_source": (["hf-mirror.com", "huggingface.co"], {"default": "hf-mirror.com"}),
                 "enable_proxy": ("BOOLEAN", {"default": False})
             }
         }
@@ -34,10 +34,6 @@ class DownloadModels:
             "hf-mirror.com": {
                 "base_url": "https://hf-mirror.com",
                 "t5_translate_en_ru_zh_small_1024": "https://hf-mirror.com/utrobinmv/t5_translate_en_ru_zh_small_1024/resolve/main/"
-            },
-            "modelscope.cn": {
-                "base_url": "https://modelscope.cn",
-                "t5_translate_en_ru_zh_small_1024": "https://modelscope.cn/api/v1/models/cubeai/t5_translate_en_ru_zh_small_1024/repo?Revision=master&FilePath="
             },
             "huggingface.co": {
                 "base_url": "https://huggingface.co",
