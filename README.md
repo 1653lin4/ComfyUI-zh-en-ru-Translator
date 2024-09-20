@@ -27,7 +27,7 @@ ComfyUI-zh-en-ru-Translator 是一个用于中文、英文和俄文之间互译�
 #### 方法1：使用下载节点（推荐）
 ![示例图片](DownloadModels.png)
 - 使用 `zh_en_ru_DownloadModels` 节点，运行即可自动下载模型。
-- 中国大陆用户建议选择 `hf-mirror.com` 或 `modelscope.cn` 作为模型源。
+- 中国大陆用户建议选择 `hf-mirror.com` 作为模型源。
 - 其他地区用户可以选择 `huggingface.co` 作为模型源。
 - 默认使用本地网络，不需要额外的网络配置。
 
