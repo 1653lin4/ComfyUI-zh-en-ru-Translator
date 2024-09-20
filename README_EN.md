@@ -27,7 +27,7 @@ ComfyUI-zh-en-ru-Translator is a plugin for translation between Chinese, English
 #### Method 1: Using the Download Node (Recommended)
 ![Example Image](DownloadModels.png)
 - Use the `zh_en_ru_DownloadModels` node, run it to automatically download the model.
-- For users in mainland China, it is recommended to choose `hf-mirror.com` or `modelscope.cn` as the model source.
+- For users in mainland China, it is recommended to choose `hf-mirror.com`  as the model source.
 - Users in other regions can choose `huggingface.co` as the model source.
 - Uses local network by default, no additional network configuration needed.
 
