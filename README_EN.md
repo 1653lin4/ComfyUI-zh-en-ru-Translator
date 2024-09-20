@@ -6,7 +6,7 @@ ComfyUI-zh-en-ru-Translator is a plugin for translation between Chinese, English
 ![Example Image](example.png)
 ## Features
 
-- Supports translation between Chinese, English, and Russian (ru-zh, zh-ru, en-zh, zh-en, en-ru, ru-en)
+- Supports translation between Chinese, English, 和 Russian (ru-zh, zh-ru, en-zh, zh-en, en-ru, ru-en)
 - Automatically detects source language, supports mixed language input
 - Automatically detects and uses GPU acceleration
 - Comes with a model download node (supported)
@@ -36,7 +36,6 @@ If automatic download fails, you can manually download the model files and place
 
 1. Please click on any of the following links to download the model files:
    - Mainland China: [hf-mirror.com](https://hf-mirror.com/utrobinmv/t5_translate_en_ru_zh_small_1024/tree/main)
-   - Mainland China: [modelscope.cn](https://modelscope.cn/models/cubeai/t5_translate_en_ru_zh_small_1024/files)
    - Other regions: [huggingface.co](https://huggingface.co/utrobinmv/t5_translate_en_ru_zh_small_1024/tree/main)
 2. Download the following files:
    - config.json
