@@ -36,7 +36,6 @@ ComfyUI-zh-en-ru-Translator 是一个用于中文、英文和俄文之间互译�
 
 1. 点击以下任一链接下载模型文件：
    - 中国大陆：[hf-mirror.com](https://hf-mirror.com/utrobinmv/t5_translate_en_ru_zh_small_1024/tree/main)
-   - 中国大陆：[modelscope.cn](https://modelscope.cn/models/cubeai/t5_translate_en_ru_zh_small_1024/files)
    - 其他地区：[huggingface.co](https://huggingface.co/utrobinmv/t5_translate_en_ru_zh_small_1024/tree/main)
 
 2. 下载以下文件：
